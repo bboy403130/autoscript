@@ -1,0 +1,461 @@
+<?xml version="1.0" encoding="gb2312"?>
+<Command desc="龄弘艶 - 场㏑" icon="011">
+<![CDATA[舧眤ㄏノ龄弘艶㏑畐硂柑龄弘艶﹛よヘ玡や┮Τ㏑–㏑常Τ荷冈灿腊㎝ㄒ辨癸眤秨祇竲セ矗ㄑ腊ざ残ㄇмォ<br>1. 匡い㏑硂㏑腊 <br>2. 琘ㄇ㏑钡础絏柑 <br>3. 蛮阑㏑础絏]]>
+<fileintroduction>
+<![CDATA[
+龄㏑畐Τ2陪ボ㏑腊㎝础㏑
+
+龄弘艶㏑畐Τ3贺ぃ摸㏑玻㏑珹龄VBS㏑VBS夹非㏑础ン㏑硂碭贺㏑妮┦Τㄇ跋珹
+1VBS夹非㏑琌弄场HTML腊ゅンτㄤ2贺㏑琌弄CDATA跋腊獺
+2础ン㏑翴础ぇ临璶珹础ンㄒWindows->Max㏑翴础ê或础莱赣琌Windows.Max()硂跋種帝狦璶や础ê或惠璶虫縒秨臥妮┦ㄓ础ず甧
+
+龄弘艶㏑畐XML竊翴妮┦弧
+1竊翴Command
+2desc竊翴陪ボゅ
+3icon竊翴瓜夹ま
+4insertinfo础獺琌Ч俱㏑ㄒノめ块ゅ=InputBox(矗ボノめず甧才﹃)
+5helpfile腊獺癸莱HTMLゅン
+6CDATA跋狦⊿ΤHelpFile琿玥沽刚弄CDATA跋腊獺
+]]>
+</fileintroduction>
+	<Command desc="膀セ㏑" icon="000">
+<![CDATA[龄弘艶膀セ㏑琌龄弘艶み璶珹龄絃公夹家览膀セ呸胯耞み㏑单闽龄㏑ㄣΤㄏノ虏虫瞯蔼疭翴硄盽琌眤絪糶竲セゲ称]]>
+		<Command desc="龄絃㏑" icon="007">
+			<Command desc="KeyPress 龄" icon="006" insertdialog="Keybd.KeyPress" insertinfo="KeyPress 龄絃店览絏,Ω计"  helpfile="qm.KeyPress"/>
+			<Command desc="KeyDown " icon="006" insertdialog="Keybd.KeyPress" insertinfo="KeyDown 龄絃店览絏,Ω计" helpfile="qm.KeyDown"/>
+			<Command desc="KeyUp 紆癬" icon="006" insertdialog="Keybd.KeyPress" insertinfo="KeyUp 龄絃店览絏,Ω计" helpfile="qm.KeyUp"/>
+			<Command desc="WaitKey 单ヴ種龄" icon="006" insertdialog="Keybd.WaitKey" insertinfo="跑秖=WaitKey()" helpfile="qm.WaitKey"/>
+			<Command desc="GetLastKey 浪代Ω龄" icon="006" insertdialog="Keybd.WaitKey" insertinfo="跑秖=GetLastKey()" helpfile="qm.GetLastKey"/>
+			<Command desc="SetSimMode 砞竚家览よΑ" insertdialog="Other.SetSimMode" icon="006" insertinfo="SetSimMode &quot;家览よΑ(0炊硄|1祑ン|2禬)&quot;"  helpfile="qm.SetSimMode"/>
+		</Command>
+		<Command desc="公夹㏑" icon="007">
+			<Command desc="LeftClick オ龄虫阑" insertdialog="Mouse.Click" icon="006" insertinfo="LeftClick Ω计" helpfile="qm.LeftClick"/>
+			<Command desc="LeftDown オ龄" insertdialog="Mouse.Click" icon="006" insertinfo="LeftDown Ω计" helpfile="qm.LeftDown"/>
+			<Command desc="LeftUp オ龄紆癬" insertdialog="Mouse.Click" icon="006" insertinfo="LeftUp Ω计" helpfile="qm.LeftUp"/>
+			<Command desc="LeftDoubleClick オ龄蛮阑" insertdialog="Mouse.Click" icon="006" insertinfo="LeftDoubleClick Ω计" helpfile="qm.LeftDoubleClick"/>
+			<Command desc="RightClick 龄虫阑" insertdialog="Mouse.Click" icon="006" insertinfo="RightClick Ω计" helpfile="qm.RightClick"/>
+			<Command desc="RightDown 龄" insertdialog="Mouse.Click" icon="006" insertinfo="RightDown Ω计" helpfile="qm.RightDown"/>
+			<Command desc="RightUp 龄紆癬" insertdialog="Mouse.Click" icon="006" insertinfo="RightUp Ω计" helpfile="qm.RightUp"/>
+			<Command desc="MiddleClick い龄虫阑" insertdialog="Mouse.Click" icon="006" insertinfo="MiddleClick Ω计" helpfile="qm.MiddleClick"/>
+			<Command desc="MoveTo 公夹簿笆" insertdialog="Mouse.MoveTo" icon="006" insertinfo="MoveTo X,Y" helpfile="qm.MoveTo"/>
+			<Command desc="MoveR 公夹癸簿笆" insertdialog="Mouse.MoveR" icon="006" insertinfo="MoveR X,Y" helpfile="qm.MoveR"/>
+			<Command desc="MouseWheel 公夹簎近" insertdialog="Mouse.Wheel" icon="006" insertinfo="MouseWheel 1" helpfile="qm.MouseWheel"/>
+			<Command desc="SaveMousePos 玂讽玡公夹┮竚" insertdialog="Mouse.SaveMousePos" icon="006" insertinfo="SaveMousePos" helpfile="qm.SaveMousePos"/>
+			<Command desc="RestoreMousePos 確Ω玂公夹竚" insertdialog="Mouse.SaveMousePos" icon="006" insertinfo="RestoreMousePos" helpfile="qm.RestoreMousePos"/>
+			<Command desc="LockMouse 玛﹚公夹竚" insertdialog="Mouse.LockMouse" icon="006" insertinfo="LockMouse" helpfile="qm.LockMouse"/>
+			<Command desc="UnlockMouse 秆埃公夹玛﹚" insertdialog="Mouse.LockMouse" icon="006" insertinfo="UnlockMouse" helpfile="qm.UnlockMouse"/>
+			<Command desc="WaitClick ヴ種公夹龄膥尿" insertdialog="Mouse.WaitClick" icon="006" insertinfo="跑秖=WaitClick()" helpfile="qm.WaitClick"/>
+			<Command desc="GetLastClick 浪代Ω筁公夹龄" insertdialog="Mouse.WaitClick" icon="006" insertinfo="跑秖=GetLastClick()" helpfile="qm.GetLastClick"/>
+			<Command desc="GetCursorPos 眔公夹竚Г夹" insertdialog="Mouse.GetCursorPos" icon="006" insertinfo="GetCursorPos x,y" helpfile="qm.GetCursorPos"/>
+			<Command desc="GetCursorShape 眔公夹" insertdialog="Mouse.GetCursorShape" icon="006" insertinfo="shape=GetCursorShape(0)" helpfile="qm.GetCursorShape"/>
+			<Command desc="SetSimMode 砞竚家览よΑ" insertdialog="Other.SetSimMode" icon="006" insertinfo="SetSimMode &quot;家览よΑ(0炊硄|1祑ン|2禬)&quot;"  helpfile="qm.SetSimMode"/>
+		</Command>
+		<Command desc="北㏑" icon="007">
+			<Command desc="IfColor 肅︹耞" insertdialog="Control.IfColor" icon="006" insertinfo="IfColor x,y,&quot;FFFFFF&quot;,0 Then
+    //肅︹妓
+Else    
+    //肅︹ぃ妓
+End If" helpfile="qm.IfColor"/>
+			<Command desc="For 碻吏" insertdialog="Control.for" icon="006" insertinfo="For i=1 To 10
+    //硂柑竲セ碻吏10Ω
+Next" helpfile="qm.for"/>
+			<Command desc="If 狦..玥" insertdialog="Control.If" icon="006" insertinfo="i=0   
+If i=0 Then  
+    //骸ì兵ン磅︽竲セ  
+End If
+//硄筁耞笷Αㄓ磅︽笆┪北" helpfile="qm.If"/>
+			<Command desc="While 狦..玥碻吏" insertdialog="Control.If" icon="006" insertinfo="i=10
+While i<>0
+    i=i-1
+Wend
+//讽碻吏兵ンΘミは滦磅︽碻吏砰" helpfile="qm.While"/>
+			<Command desc="Goto 铬锣夹癘" insertdialog="Control.Goto" icon="006" insertinfo="Goto 夹癘" helpfile="qm.Goto"/>
+			<Command desc="Call 秸ノ筁祘" insertdialog="Control.Goto" icon="006" insertinfo="Call 筁祘()" helpfile="qm.Call"/>
+			<Command desc="Rem 夹癘/爹睦" insertdialog="Control.Rem" icon="006" insertinfo="Rem 夹癘" helpfile="qm.Rem"/>
+			<Command desc="Sub 祘" insertdialog="Control.Rem" icon="006" insertinfo="Sub 祘()
+    //и琌筁祘,砆秸ノ
+End Sub
+//﹚竡筁祘,竲セい秸ノ硂筁祘" helpfile="qm.Sub"/>
+			<Command desc="Function ㄧ计" insertdialog="" icon="006" insertinfo="Function ㄧ计(把计)
+    //и琌ㄧ计,砆秸ノ
+End Function
+//﹚竡ㄧ计,竲セい秸ノ硂ㄧ计や把计㎝" helpfile="qm.Function"/>
+			<Command desc="Select Case 薄猵兵ン匡拒" insertdialog="" icon="006" insertinfo="Select Case 匡拒兵ン
+Case 0
+    //薄猵1
+Case 1
+    //薄猵2
+Case Else
+    //玥
+End Select" helpfile="qm.Select"/>
+			<Command desc="Do While/Until 碻吏" insertdialog="" icon="006" insertinfo="Do While 兵ン
+    Exit Do
+    //癶碻吏
+Loop" helpfile="qm.Do"/>
+			<Command desc="EndScript 竲セ氨ゎ笲︽" insertdialog="Control.EndScript" icon="006" insertinfo="EndScript" helpfile="qm.EndScript"/>
+			<Command desc="ExitScript 竲セ癶笲︽" insertdialog="" icon="006" insertinfo="ExitScript" helpfile="qm.ExitScript"/>
+			<Command desc="RestartScript 币竲セ笲︽" insertdialog="" icon="006" insertinfo="RestartScript" helpfile="qm.RestartScript"/>
+		</Command>
+		<Command desc="肅︹/瓜㏑" icon="007">
+			<Command desc="GetPixelColor 眔﹚翴肅︹" icon="006" insertgui="QMColorActionCtl.ocx" insertinfo="GetColor=GetPixelColor(x,y)" helpfile="qm.GetPixelColor"/>
+			<Command desc="FindColor т︹" icon="006" insertgui="QMColorActionCtl.ocx" insertinfo="FindColor 0,0,1024,768,&quot;0000FF&quot;,intX,intY" helpfile="qm.FindColor"/>
+			<Command desc="FindColorEx 家絢т︹" insertgui="QMColorActionCtl.ocx" icon="006" insertinfo="FindColorEx 0,0,1024,768,&quot;0000FF&quot;,0,0.9,intX,intY" helpfile="qm.FindColorEx"/>
+			<Command desc="FindCenterColor いみт︹" icon="006" insertgui="QMColorActionCtl.ocx" insertinfo="FindCenterColor 0,0,1024,768,&quot;0000FF&quot;,intX,intY" helpfile="qm.FindCenterColor"/>
+			<Command desc="FindPic т瓜" insertgui="QMColorActionCtl.ocx" insertinfo="FindPic 0,0,1024,768,&quot;瓜.bmp&quot;,0.9,intX,intY" icon="006" helpfile="qm.FindPic"/>
+		</Command>
+		<Command desc="ㄤ㏑" icon="007">
+			<Command desc="Delay ┑" insertdialog="Other.Delay" icon="006" insertinfo="Delay 睝计" helpfile="qm.Delay"/>
+			<Command desc="SayString 块ゅセ" insertdialog="Other.SayString" icon="006" insertinfo="SayString &quot;ゅ&quot;" helpfile="qm.SayString"/>
+			<Command desc="MessageBox 紆癸杠" insertdialog="Other.MessageBox" icon="006" insertinfo="MessageBox &quot;ゅ&quot;" helpfile="qm.MessageBox"/>
+			<Command desc="RunApp 笲︽" insertdialog="Other.RunApp" icon="006" insertinfo="RunApp &quot;notepad.exe&quot;" helpfile="qm.RunApp"/>
+			<Command desc="UserVar ノめ﹚竡跑秖" insertdialog="Other.UserVar" icon="006" insertinfo="UserVar 跑秖=&quot;纐粄&quot; &quot;爹睦&quot;" helpfile="qm.UserVar"/>
+			<Command desc="SetSimMode 砞竚家览よΑ" insertdialog="Other.SetSimMode" icon="006" insertinfo="SetSimMode &quot;家览よΑ(0炊硄|1祑ン|2禬)&quot;"  helpfile="qm.SetSimMode"/>
+			<Command desc="Import 旧㏑" icon="006" insertinfo="Import &quot;vbsゅン┪础ン&quot;" helpfile="qm.Import"/>
+			<Command desc="VBSBegin..VBSEnd VBS磅︽遏" icon="006" insertinfo="VBSBegin 
+    '惠璶础VBS絏 
+VBSEnd" helpfile="qm.VBSBegin"/>
+			<Command desc="PutAttachment 睦ン" icon="006" insertinfo="PutAttachment &quot;隔畖&quot;,&quot;璶睦ゅン&quot;" helpfile="qm.PutAttachment"/>
+			<Command desc="// 竲セ爹睦" icon="006" insertinfo="//爹睦ず甧" helpfile="qm.Rem2"/>
+			<Command desc="TracePrint 秸刚块" icon="006" insertinfo="TracePrint 跑秖" helpfile="qm.TracePrint"/>
+			<Command desc="LogStart 秨﹍癘魁ら粁" icon="006" insertinfo="LogStart ゅン" helpfile="qm.LogStart"/>
+			<Command desc="LogStop 氨ゎら粁癘魁" icon="006" insertinfo="LogStop" helpfile="qm.LogStop"/>
+
+		</Command>
+		<Command desc="絬祘㏑" icon="007">
+			<Command desc="DimEnv ﹚竡吏挂跑秖" icon="006" insertinfo="DimEnv 吏挂跑秖" helpfile="qm.DimEnv"/>
+			<Command desc="Global ﹚竡Ы跑秖" icon="006" insertinfo="Global Ы跑秖" helpfile="qm.Global"/>
+			<Command desc="BeginThread 笲︽筁祘" icon="006" insertinfo="絬祘ID=BeginThread(筁祘)" helpfile="qm.BeginThread"/>
+			<Command desc="StopThread 氨ゎ絬祘笲︽" icon="006" insertinfo="StopThread 絬祘ID" helpfile="qm.StopThread"/>
+			<Command desc="PauseThread 既氨絬祘笲︽" icon="006" insertinfo="PauseThread 絬祘ID" helpfile="qm.PauseThread"/>
+			<Command desc="ContinueThread 膥尿絬祘笲︽" icon="006" insertinfo="ContinueThread 絬祘ID" helpfile="qm.ContinueThread"/>
+			<Command desc="GetThreadID 眔讽玡絬祘ID" icon="006" insertinfo="絬祘ID = GetThreadID()" helpfile="qm.GetThreadID"/>
+		</Command>
+		<Command desc="ㄆン祘" icon="020">
+			<Command desc="OnScriptLoad 竲セ更ㄆン祘" icon="006" insertinfo="Sub OnScriptLoad()
+    MessageBox &quot;竲セ更皌竚ЧΘ&quot;
+End Sub" helpfile="qm.OnScriptLoad"/>
+			<Command desc="OnScriptExit 竲セ氨ゎㄆン祘" icon="006" insertinfo="Sub OnScriptExit()
+    MessageBox &quot;竲セ竒氨ゎ&quot;
+End Sub" helpfile="qm.OnScriptExit"/>
+			<Command desc="OnThreadExit 絬祘氨ゎㄆン祘" icon="006" insertinfo="Sub OnThreadExit()
+    MessageBox &quot;讽玡絬祘竒氨ゎ&quot;
+End Sub" helpfile="qm.OnThreadExit"/>
+		</Command>
+	</Command>
+	<Command desc="ㄆン" icon="000">
+<![CDATA[龄弘艶ㄆン琌龄弘艶穝糤が笆ㄆン璶珹秙块匡┰北ン单ㄆン硄盽琌眤絪糶竲セゲ称]]>
+		<Command desc="Form 怠砰" icon="010" insertinfo="Event Form1.Load
+    //讽怠砰砆更牟祇ㄆン
+End Event" helpfile="qui.Form"/>
+		<Command desc="膀セ北ン" icon="009">
+			<Command desc="Label 夹乓" icon="009" insertinfo="Event Form1.Label1.Click
+    //讽夹乓砆翴阑牟祇ㄆン
+End Event" helpfile="qui.Label"/>
+			<Command desc="InputBox 块" icon="009" insertinfo="Event Form1.InputBox1.Change
+    //讽ゅセず甧砆э牟祇ㄆン
+End Event" helpfile="qui.InputBox"/>
+			<Command desc="Button 秙" icon="009" insertinfo="Event Form1.Button1.Click
+    //讽秙砆翴阑牟祇ㄆン
+End Event" helpfile="qui.Button"/>
+			<Command desc="OptionBox 虫匡" icon="009" insertinfo="Event Form1.OptionBox1.Click
+    //讽虫匡砆翴阑牟祇ㄆン
+End Event" helpfile="qui.OptionBox"/>
+			<Command desc="CheckBox 匡" icon="009" insertinfo="Event Form1.CheckBox1.Click
+    //讽匡砆翴阑牟祇ㄆン
+End Event" helpfile="qui.CheckBox"/>
+			<Command desc="GroupBox 舱" icon="009" insertinfo="" helpfile="qui.GroupBox"/>
+			<Command desc="PictureBox 瓜钩" icon="009" insertinfo="Event Form1.PictureBox1.Click
+    //讽瓜钩砆翴阑牟祇ㄆン
+End Event" helpfile="qui.PictureBox"/>
+			<Command desc="ComboBox ┰" icon="009" insertinfo="Event Form1.ComboBox1.SelectChange
+    //讽┰┰ず甧砆匡拒牟祇ㄆン
+End Event" helpfile="qui.ComboBox"/>
+			<Command desc="TabControl 匡兜" icon="009" insertinfo="Event Form1.TabControl1.SelectChange
+    //讽匡兜匡兜砆匡拒牟祇ㄆン
+End Event" helpfile="qui.TabControl"/>
+			<Command desc="Container 甧竟" icon="009" insertinfo="" helpfile="qui.Container"/>
+			<Command desc="Timer ﹚竟" icon="009" insertinfo="Event Form1.Timer1.Timer
+    //沮﹚秅戳牟祇ㄆン
+End Event" helpfile="qui.Timer"/>
+			<Command desc="Slider 菲遏" icon="009" insertinfo="Event Form1.Slider1.Slide
+    //讽菲遏竚砆公夹╈笆牟祇ㄆン
+End Event" helpfile="qui.Slider"/>
+			<Command desc="ProgressBar 秈兵" icon="009" insertinfo="" helpfile="qui.ProgressBar"/>
+                        <Command desc="ListBox " icon="009" insertinfo="Event Form1.ListBox1.DblClick
+    //讽いず甧砆公夹蛮阑牟祇ㄆン
+End Event" helpfile="qui.ListBox"/>
+                        <Command desc="Hotkey 荐龄" icon="009" insertinfo="Event Form1.Hotkey1.Hotkey
+    //讽荐龄砆爹Θ砆牟祇ㄆン
+End Event" helpfile="qui.Hotkey"/>
+                        <Command desc="BrowseBox 聅凝" icon="009" insertinfo="" helpfile="qui.BrowseBox"/>
+		</Command>
+	</Command>
+	<Command desc="夹非VBS㏑" icon="000">
+<![CDATA[VB Script粂ēざ残
+VBS粂ē琌稬硁そ矗ㄑ贺祘秨祇粂ēウ盢艶竲セ莱ノ約獂烩办沮ぃЧ参璸ㄏノVBS竲セ粂ēノめ计琌摸玻珇い瞴程ㄣΤ秖毙祘单厩策戈
+
+龄弘艶いVBS粂ē
+龄弘艶承龄絃公夹家览摸硁ンいま蔼粂ē礚耎甶龄弘艶粂ēㄏノ稬硁矗ㄑVBSま篮ㄣΤ礚ゑ览甧┦㎝铆﹚┦
+
+VBS粂疭翴
+* 伦碔κ夹非ㄧ计繦種ㄑ眤ㄏノ
+* 瞯耕ゑ癬龄弘艶セō粂ㄏノVBS粂瞯穦Τ﹚
+* 铆﹚┦稬硁矗ㄑVBSま篮琌Windows巨キ场だ铆﹚┦伐ㄎ
+
+龄弘艶柑ㄏノVBS粂
+龄弘艶や场だ夹非VBS㏑(埃ㄇ︽ゑif,for,while单)眤竲セい钡ㄏノ硂ㄇ㏑]]>
+		<Command desc="盽计" icon="018">
+			<Command desc="肅︹盽计" icon="018" helpfile="vbs.vsconColor"/>
+			<Command desc="ゑ耕盽计" icon="018" helpfile="vbs.vsconCompare"/>
+			<Command desc="ら戳㎝丁盽计" icon="018" helpfile="vbs.vsconDateTime"/>
+			<Command desc="ら戳Α盽计" icon="018" helpfile="vbs.vsconDateFormat"/>
+			<Command desc="DriveType 盽计" icon="018" helpfile="vbs.vsconDriveType"/>
+			<Command desc="FileAttributes 盽计" icon="018" helpfile="vbs.vsconFileAttribute"/>
+			<Command desc="ゅン块/块盽计" icon="018" helpfile="vbs.vsconFileIO"/>
+			<Command desc="ㄤ盽计" icon="018" helpfile="vbs.vsconMisc"/>
+			<Command desc="MsgBox 盽计" icon="018" helpfile="vbs.vsconMsgBox"/>
+			<Command desc="SpecialFolder 盽计" icon="018" helpfile="vbs.vsconSpecialFolder"/>
+			<Command desc="才﹃盽计" icon="018" helpfile="vbs.vsconString"/>
+			<Command desc="Tristate 盽计" icon="018" helpfile="vbs.vsconTriState"/>
+			<Command desc="VarType 盽计" icon="018" helpfile="vbs.vsconVarType"/>
+		</Command>
+		<Command desc="ㄧ计" icon="003">
+			<Command desc="计厩ㄧ计" icon="003">
+				<Command desc="Abs ㄧ计" icon="003" insertinfo="Abs(计)" helpfile="vbs.vsfctAbs"/>
+				<Command desc="Atn ㄧ计" icon="003" insertinfo="Atn(计)" helpfile="vbs.vsfctAtn"/>
+				<Command desc="Cos ㄧ计" icon="003" insertinfo="Cos(计)" helpfile="vbs.vsfctCos"/>
+				<Command desc="Exp ㄧ计" icon="003" insertinfo="Exp(计)" helpfile="vbs.vsfctExp"/>
+				<Command desc="Fix ㄧ计" icon="003" insertinfo="Fix(计)" helpfile="vbs.vsfctInt"/>
+				<Command desc="Int ㄧ计" icon="003" insertinfo="Int(计)" helpfile="vbs.vsfctInt"/>
+				<Command desc="Log ㄧ计" icon="003" insertinfo="Log(计)" helpfile="vbs.vsfctLog"/>
+				<Command desc="Oct ㄧ计" icon="003" insertinfo="Oct(计)" helpfile="vbs.vsfctOct"/>
+				<Command desc="Sgn ㄧ计" icon="003" insertinfo="Sgn(计)" helpfile="vbs.vsfctSgn"/>
+				<Command desc="Sin ㄧ计" icon="003" insertinfo="Sin(计)" helpfile="vbs.vsfctSin"/>
+				<Command desc="Rnd ㄧ计" icon="003" insertinfo="Rnd(计)" helpfile="vbs.vsfctRnd"/>
+				<Command desc="Round ㄧ计" icon="003" insertinfo="Round(计)" helpfile="vbs.vsfctRound"/>
+				<Command desc="Sqr ㄧ计" icon="003" insertinfo="Sqr(计)" helpfile="vbs.vsfctSqr"/>
+				<Command desc="Tan ㄧ计" icon="003" insertinfo="Tan(计)" helpfile="vbs.vsfctTan"/>
+			</Command>
+			<Command desc="才﹃ㄧ计" icon="003">
+				<Command desc="Asc ㄧ计" icon="003" insertinfo="Asc(才﹃)" helpfile="vbs.vsfctAsc"/>
+				<Command desc="Chr ㄧ计" icon="003" insertinfo="Chr(夹醚才计)" helpfile="vbs.vsfctChr"/>
+				<Command desc="Hex ㄧ计" icon="003" insertinfo="Hex(笷Α)" helpfile="vbs.vsfctHex"/>
+				<Command desc="InStr ㄧ计" icon="003" insertinfo="InStr(钡穓才﹃,璶穓才﹃)" helpfile="vbs.vsfctInStr"/>
+				<Command desc="InStrRev ㄧ计" icon="003" insertinfo="InStrRev(钡穓才﹃,璶穓才﹃)" helpfile="vbs.vsfctInStrRev"/>
+				<Command desc="Join ㄧ计" icon="003" insertinfo="Join(才﹃计舱)" helpfile="vbs.vsfctJoin"/>
+				<Command desc="LCase ㄧ计" icon="003" insertinfo="LCase(才﹃)" helpfile="vbs.vsfctLCase"/>
+				<Command desc="Left ㄧ计" icon="003" insertinfo="Left(才﹃,璶才计)" helpfile="vbs.vsfctLeft"/>
+				<Command desc="Len ㄧ计" icon="003" insertinfo="Len(才﹃)" helpfile="vbs.vsfctLen"/>
+				<Command desc="LTrim ㄧ计" icon="003" insertinfo="LTrim(才﹃)" helpfile="vbs.vsfctLTrim"/>
+				<Command desc="Mid ㄧ计" icon="003" insertinfo="Mid(才﹃,秨﹍竚,才计)" helpfile="vbs.vsfctMid"/>
+				<Command desc="Replace ㄧ计" icon="003" insertinfo="Replace(才﹃,砆蠢才﹃,蠢传才﹃)" helpfile="vbs.vsfctReplace"/>
+				<Command desc="Right ㄧ计" icon="003" insertinfo="Right(才﹃,璶才计)" helpfile="vbs.vsfctRight"/>
+				<Command desc="RTrim ㄧ计" icon="003" insertinfo="RTrim(才﹃)" helpfile="vbs.vsfctLTrim"/>
+				<Command desc="Space ㄧ计" icon="003" insertinfo="Space(惠璶计)" helpfile="vbs.vsfctSpace"/>
+				<Command desc="StrComp ㄧ计" icon="003" insertinfo="StrComp(才﹃1,才﹃2)" helpfile="vbs.vsfctStrComp"/>
+				<Command desc="StrReverse ㄧ计" icon="003" insertinfo="StrReverse(才﹃)" helpfile="vbs.vsfctStrReverse"/>
+				<Command desc="String ㄧ计" icon="003" insertinfo="String(才﹃,才)" helpfile="vbs.vsfctString"/>
+				<Command desc="Trim ㄧ计" icon="003" insertinfo="Trim(才﹃)" helpfile="vbs.vsfctLTrim"/>
+				<Command desc="UCase ㄧ计" icon="003" insertinfo="UCase(才﹃)" helpfile="vbs.vsfctUcase"/>
+			</Command>
+			<Command desc="计舱ㄧ计" icon="003">
+				<Command desc="Array ㄧ计" icon="003" insertinfo="Array(1,2,3...)" helpfile="vbs.vsfctArray"/>
+				<Command desc="Filter ㄧ计" icon="003" insertinfo="Filter(计舱,璶穓才﹃)" helpfile="vbs.vsfctFilter"/>
+				<Command desc="LBound ㄧ计" icon="003" insertinfo="LBound(计舱跑秖)" helpfile="vbs.vsfctLBound"/>
+				<Command desc="Split ㄧ计" icon="003" insertinfo="Split(才﹃,だ筳才)" helpfile="vbs.vsfctSplit"/>
+				<Command desc="UBound ㄧ计" icon="003" insertinfo="UBound(计舱跑秖)" helpfile="vbs.vsfctUBound"/>
+			</Command>
+			<Command desc="摸锣传ㄧ计" icon="003">
+				<Command desc="CBool ㄧ计" icon="003" insertinfo="CBool(笷Α)" helpfile="vbs.vsfctCBool"/>
+				<Command desc="CByte ㄧ计" icon="003" insertinfo="CByte(笷Α)" helpfile="vbs.vsfctCByte"/>
+				<Command desc="CCur ㄧ计" icon="003" insertinfo="CCur(笷Α)" helpfile="vbs.vsfctCCur"/>
+				<Command desc="CDate ㄧ计" icon="003" insertinfo="CDate(ら戳笷Α)" helpfile="vbs.vsfctCDate"/>
+				<Command desc="CDbl ㄧ计" icon="003" insertinfo="CDbl(笷Α)" helpfile="vbs.vsfctCDbl"/>
+				<Command desc="CInt ㄧ计" icon="003" insertinfo="CInt(笷Α)" helpfile="vbs.vsfctCInt"/>
+				<Command desc="CLng ㄧ计" icon="003" insertinfo="CLng(笷Α)" helpfile="vbs.vsfctCLng"/>
+				<Command desc="CSng ㄧ计" icon="003" insertinfo="CSng(笷Α)" helpfile="vbs.vsfctCSng"/>
+				<Command desc="CStr ㄧ计" icon="003" insertinfo="CStr(笷Α)" helpfile="vbs.vsfctCstr"/>
+				<Command desc="RGB ㄧ计" icon="003" insertinfo="RGB(,厚,屡)" helpfile="vbs.vsfctRGB"/>
+			</Command>
+			<Command desc="丁ら戳ㄧ计" icon="003">
+				<Command desc="Date ㄧ计" icon="003" insertinfo="Date" helpfile="vbs.vsfctDate"/>
+				<Command desc="DateAdd ㄧ计" icon="003" insertinfo="DateAdd(丁丁筳,丁筳计,丁)" helpfile="vbs.vsfctDateAdd"/>
+				<Command desc="DateDiff ㄧ计" icon="003" insertinfo="DateDiff(丁丁筳,秨﹍丁,挡丁)" helpfile="vbs.vsfctDateDiff"/>
+				<Command desc="DatePart ㄧ计" icon="003" insertinfo="DatePart(丁丁筳,ら戳笷Α)" helpfile="vbs.vsfctDatePart"/>
+				<Command desc="DateSerial ㄧ计" icon="003" insertinfo="DateSerial(,る,ら)" helpfile="vbs.vsfctDateSerial"/>
+				<Command desc="DateValue ㄧ计" icon="003" insertinfo="DateValue(ら戳才﹃笷Α)" helpfile="vbs.vsfctDateValue"/>
+				<Command desc="Day ㄧ计" icon="003" insertinfo="Day(ら戳笷Α)" helpfile="vbs.vsfctDay"/>
+				<Command desc="Hour ㄧ计" icon="003" insertinfo="Hour(丁笷Α)" helpfile="vbs.vsfctHour"/>
+				<Command desc="Minute ㄧ计" icon="003" insertinfo="Minute(丁笷Α)" helpfile="vbs.vsfctMinute"/>
+				<Command desc="Month ㄧ计" icon="003" insertinfo="Month(ら戳笷Α)" helpfile="vbs.vsfctMonth"/>
+				<Command desc="MonthName ㄧ计" icon="003" insertinfo="MonthName(る计)" helpfile="vbs.vsfctMonthName"/>
+				<Command desc="Now ㄧ计" icon="003" insertinfo="Now" helpfile="vbs.vsfctNow"/>
+				<Command desc="Second ㄧ计" icon="003" insertinfo="Second(丁笷Α)" helpfile="vbs.vsfctSecond"/>
+				<Command desc="Time ㄧ计" icon="003" insertinfo="Time" helpfile="vbs.vsfctTime"/>
+				<Command desc="TimeSerial ㄧ计" icon="003" insertinfo="TimeSerial(,だ牧,)" helpfile="vbs.vsfctTimeSerial"/>
+				<Command desc="TimeValue ㄧ计" icon="003" insertinfo="TimeValue(丁笷Α)" helpfile="vbs.vsfctTimeValue"/>
+				<Command desc="Weekday ㄧ计" icon="003" insertinfo="Weekday(ら戳笷Α)" helpfile="vbs.vsfctWeekday"/>
+				<Command desc="WeekdayName ㄧ计" icon="003" insertinfo="WeekdayName(琍戳い琘ぱ计)" helpfile="vbs.vsfctWeekdayName"/>
+				<Command desc="Year ㄧ计" icon="003" insertinfo="Year(ら戳笷Α)" helpfile="vbs.vsfctYear"/>
+			</Command>
+			<Command desc="ㄤㄧ计" icon="003">
+				<Command desc="CreateObject ㄧ计" icon="003" insertinfo="CreateObject(莱ノ祘.癸钩摸)" helpfile="vbs.vsfctCreateObject"/>
+				<Command desc="Eval ㄧ计" icon="003" insertinfo="Eval(笷Α)" helpfile="vbs.vsfctEval"/>
+				<Command desc="FormatCurrency ㄧ计" icon="003" insertinfo="FormatCurrency(笷Α)" helpfile="vbs.vsfctFormatCurrency"/>
+				<Command desc="FormatDateTime ㄧ计" icon="003" insertinfo="FormatDateTime(ら戳笷Α)" helpfile="vbs.vsfctFormatDateTime"/>
+				<Command desc="FormatNumber ㄧ计" icon="003" insertinfo="FormatNumber(笷Α)" helpfile="vbs.vsfctFormatNumber"/>
+				<Command desc="FormatPercent ㄧ计" icon="003" insertinfo="FormatPercent(笷Α)" helpfile="vbs.vsfctFormatPercent"/>
+				<Command desc="GetObject ㄧ计" icon="003" insertinfo="GetObject(癸钩隔畖)" helpfile="vbs.vsfctGetObject"/>
+				<Command desc="InputBox ㄧ计" icon="003" insertinfo="InputBox(才﹃,夹肈)" helpfile="vbs.vsfctInputBox"/>
+				<Command desc="IsArray ㄧ计" icon="003" insertinfo="IsArray(跑秖)" helpfile="vbs.vsfctIsArray"/>
+				<Command desc="IsDate ㄧ计" icon="003" insertinfo="IsDate(ら戳)" helpfile="vbs.vsfctIsDate"/>
+				<Command desc="IsEmpty ㄧ计" icon="003" insertinfo="IsEmpty(笷Α)" helpfile="vbs.vsfctIsEmpty"/>
+				<Command desc="IsNull ㄧ计" icon="003" insertinfo="IsNull(笷Α)" helpfile="vbs.vsfctIsNull"/>
+				<Command desc="IsNumeric ㄧ计" icon="003" insertinfo="IsNumeric(笷Α)" helpfile="vbs.vsfctIsNumeric"/>
+				<Command desc="IsObject ㄧ计" icon="003" insertinfo="IsObject(笷Α)" helpfile="vbs.vsfctIsObject"/>
+				<Command desc="LoadPicture ㄧ计" icon="003" insertinfo="LoadPicture(ゅン嘿)" helpfile="vbs.vsfctLoadPicture"/>
+				<Command desc="MsgBox ㄧ计" icon="003" insertinfo="MsgBox(才﹃)" helpfile="vbs.vsfctMsgBox"/>
+				<Command desc="ScriptEngine ㄧ计" icon="003" insertinfo="ScriptEngine" helpfile="vbs.vsfctScriptEngine"/>
+				<Command desc="ScriptEngineBuildVersion ㄧ计" icon="003" insertinfo="ScriptEngineBuildVersion" helpfile="vbs.vsfctScriptEngineBuildVersion"/>
+				<Command desc="ScriptEngineMajorVersion ㄧ计" icon="003" insertinfo="ScriptEngineMajorVersion" helpfile="vbs.vsfctScriptEngineMajorVersion"/>
+				<Command desc="ScriptEngineMinorVersion ㄧ计" icon="003" insertinfo="ScriptEngineMinorVersion" helpfile="vbs.vsfctScriptEngine"/>
+				<Command desc="TypeName ㄧ计" icon="003" insertinfo="TypeName(跑秖)" helpfile="vbs.vsfctTypeName"/>
+				<Command desc="VarType ㄧ计" icon="003" insertinfo="VarType(跑秖)" helpfile="vbs.vsfctVarType"/>
+			</Command>
+		</Command>
+		<Command desc="よ猭" icon="006">
+			<Command desc="Add よ猭" icon="006" helpfile="vbs.vsmthAdd"/>
+			<Command desc="AddFolders よ猭" icon="006" helpfile="vbs.vsmthAddFolders"/>
+			<Command desc="BuildPath よ猭" icon="006" helpfile="vbs.vsmthBuildPath"/>
+			<Command desc="Clear よ猭" icon="006" helpfile="vbs.vsmthClear"/>
+			<Command desc="Close よ猭" icon="006" helpfile="vbs.vsmthClose"/>
+			<Command desc="Copy よ猭" icon="006" helpfile="vbs.vsmthCopy"/>
+			<Command desc="CopyFile よ猭" icon="006" helpfile="vbs.vsmthCopyFile"/>
+			<Command desc="CopyFolder よ猭" icon="006" helpfile="vbs.vsmthCopyFolder"/>
+			<Command desc="CreateFolder よ猭" icon="006" helpfile="vbs.vsmthCreateFolder"/>
+			<Command desc="CreateTextFile よ猭" icon="006" helpfile="vbs.vsmthCreateTextFile"/>
+			<Command desc="Delete よ猭" icon="006" helpfile="vbs.vsmthDelete"/>
+			<Command desc="DeleteFile よ猭" icon="006" helpfile="vbs.vsmthDeleteFile"/>
+			<Command desc="DeleteFolder よ猭" icon="006" helpfile="vbs.vsmthDeleteFolder"/>
+			<Command desc="DriveExists よ猭" icon="006" helpfile="vbs.vsmthDriveExists"/>
+			<Command desc="Execute よ猭" icon="006" helpfile="vbs.vsmthExecute"/>
+			<Command desc="Exists よ猭" icon="006" helpfile="vbs.vsmthExists"/>
+			<Command desc="FileExists よ猭" icon="006" helpfile="vbs.vsmthFileExists"/>
+			<Command desc="FolderExists よ猭" icon="006" helpfile="vbs.vsmthFolderExists"/>
+			<Command desc="GetAbsolutePathName よ猭" icon="006" helpfile="vbs.vsmthGetAbsolutePathName"/>
+			<Command desc="GetBaseName よ猭" icon="006" helpfile="vbs.vsmthGetBaseName"/>
+			<Command desc="GetDrive よ猭" icon="006" helpfile="vbs.vsmthGetDrive"/>
+			<Command desc="GetDriveName よ猭" icon="006" helpfile="vbs.vsmthGetDriveName"/>
+			<Command desc="GetExtensionName よ猭" icon="006" helpfile="vbs.vsmthGetExtensionName"/>
+			<Command desc="GetFile よ猭" icon="006" helpfile="vbs.vsmthGetFile"/>
+			<Command desc="GetFileName よ猭" icon="006" helpfile="vbs.vsmthGetFileName"/>
+			<Command desc="GetFolder よ猭" icon="006" helpfile="vbs.vsmthGetFolder"/>
+			<Command desc="GetParentFolderName よ猭" icon="006" helpfile="vbs.vsmthGetParentFolderName"/>
+			<Command desc="GetSpecialFolder よ猭" icon="006" helpfile="vbs.vsmthGetSpecialFolder"/>
+			<Command desc="GetTempName よ猭" icon="006" helpfile="vbs.vsmthGetTempName"/>
+			<Command desc="Items よ猭" icon="006" helpfile="vbs.vsmthItems"/>
+			<Command desc="Keys よ猭" icon="006" helpfile="vbs.vsmthKeys"/>
+			<Command desc="Move よ猭" icon="006" helpfile="vbs.vsmthMove"/>
+			<Command desc="MoveFile よ猭" icon="006" helpfile="vbs.vsmthMoveFile"/>
+			<Command desc="MoveFolder よ猭" icon="006" helpfile="vbs.vsmthMoveFolder"/>
+			<Command desc="OpenAsTextStream よ猭" icon="006" helpfile="vbs.vsmthOpenAsTextStream"/>
+			<Command desc="OpenTextFile よ猭" icon="006" helpfile="vbs.vsmthOpenTextFile"/>
+			<Command desc="Raise よ猭" icon="006" helpfile="vbs.vsmthRaise"/>
+			<Command desc="Read よ猭" icon="006" helpfile="vbs.vsmthRead"/>
+			<Command desc="ReadAll よ猭" icon="006" helpfile="vbs.vsmthReadAll"/>
+			<Command desc="ReadLine よ猭" icon="006" helpfile="vbs.vsmthReadLine"/>
+			<Command desc="Remove よ猭" icon="006" helpfile="vbs.vsmthRemove"/>
+			<Command desc="RemoveAll よ猭" icon="006" helpfile="vbs.vsmthRemoveAll"/>
+			<Command desc="Skip よ猭" icon="006" helpfile="vbs.vsmthSkip"/>
+			<Command desc="SkipLine よ猭" icon="006" helpfile="vbs.vsmthSkipLine"/>
+			<Command desc="Write よ猭" icon="006" helpfile="vbs.vsmthWrite"/>
+			<Command desc="WriteBlankLines よ猭" icon="006" helpfile="vbs.vsmthWriteBlankLines"/>
+			<Command desc="WriteLine よ猭" icon="006" helpfile="vbs.vsmthWriteLine"/>
+		</Command>
+		<Command desc="癸钩" icon="010">
+			<Command desc="Dictionary 癸钩" icon="010" helpfile="vbs.vsobjDictionary"/>
+			<Command desc="Drive 癸钩" icon="010" helpfile="vbs.vsobjDrive"/>
+			<Command desc="Err 癸钩" icon="010" helpfile="vbs.vsobjErr"/>
+			<Command desc="File 癸钩 " icon="010" helpfile="vbs.vsobjFile"/>
+			<Command desc="FileSystemObject 癸钩" icon="010" helpfile="vbs.vsobjFileSystem"/>
+			<Command desc="Folder 癸钩" icon="010" helpfile="vbs.vsobjFolder"/>
+			<Command desc="TextStream 癸钩" icon="010" helpfile="vbs.vsobjTextStream"/>
+		</Command>
+		<Command desc="笲衡才" icon="019">
+			<Command desc="猭笲衡才 (+)" icon="019" helpfile="vbs.vsoprAdd"/>
+			<Command desc="And 笲衡才" icon="019" helpfile="vbs.vsoprAnd"/>
+			<Command desc="硈钡笲衡才" icon="019" helpfile="vbs.vsoprConcatenation"/>
+			<Command desc="埃猭笲衡才 (/)" icon="019" helpfile="vbs.vsoprDivide"/>
+			<Command desc="Eqv 笲衡才" icon="019" helpfile="vbs.vsoprEqv"/>
+			<Command desc="―经笲衡才 (^)" icon="019" helpfile="vbs.vsoprExponentiation"/>
+			<Command desc="Imp 笲衡才" icon="019" helpfile="vbs.vsoprImp"/>
+			<Command desc="俱计埃猭笲衡才 (\)" icon="019" helpfile="vbs.vsoprIntegerDivide"/>
+			<Command desc="Is 笲衡才" icon="019" helpfile="vbs.vsoprIs"/>
+			<Command desc="Mod 笲衡才" icon="019" helpfile="vbs.vsoprMod"/>
+			<Command desc="猭笲衡才 (*)" icon="019" helpfile="vbs.vsoprMultiply"/>
+			<Command desc="―璽笲衡才 (-)" icon="019" helpfile="vbs.vsoprSubtract"/>
+			<Command desc="Not 笲衡才" icon="019" helpfile="vbs.vsoprNot"/>
+			<Command desc="Or 笲衡才" icon="019" helpfile="vbs.vsoprOr"/>
+			<Command desc="笲衡才纔" icon="019" helpfile="vbs.vsgrpOperatorPrecedence"/>
+			<Command desc="搭猭笲衡才 (-)" icon="019" helpfile="vbs.vsoprSubtract"/>
+			<Command desc="Xor 笲衡才" icon="019" helpfile="vbs.vsoprXor"/>
+		</Command>
+		<Command desc="妮┦" icon="009">
+			<Command desc="Attributes 妮┦" icon="009" helpfile="vbs.vsproAttributes"/>
+			<Command desc="AtEndOfLine 妮┦" icon="009" helpfile="vbs.vsproAtEndOfLine"/>
+			<Command desc="AtEndOfStream 妮┦" icon="009" helpfile="vbs.vsproAtEndOfStream"/>
+			<Command desc="AvailableSpace 妮┦" icon="009" helpfile="vbs.vsproAvailableSpace"/>
+			<Command desc="Column 妮┦" icon="009" helpfile="vbs.vsproColumn"/>
+			<Command desc="CompareMode 妮┦" icon="009" helpfile="vbs.vsproCompareMode"/>
+			<Command desc="Count 妮┦" icon="009" helpfile="vbs.vsproCount"/>
+			<Command desc="DateCreated 妮┦" icon="009" helpfile="vbs.vsproDateCreated"/>
+			<Command desc="DateLastAccessed 妮┦" icon="009" helpfile="vbs.vsproDateLastAccessed"/>
+			<Command desc="DateLastModified 妮┦" icon="009" helpfile="vbs.vsproDateLastModified"/>
+			<Command desc="Description 妮┦" icon="009" helpfile="vbs.vsproDescription"/>
+			<Command desc="Drive 妮┦" icon="009" helpfile="vbs.vsproDrive"/>
+			<Command desc="DriveLetter 妮┦" icon="009" helpfile="vbs.vsproDriveLetter"/>
+			<Command desc="Drives 妮┦" icon="009" helpfile="vbs.vsproDrives"/>
+			<Command desc="DriveType 妮┦" icon="009" helpfile="vbs.vsproDriveType"/>
+			<Command desc="Files 妮┦" icon="009" helpfile="vbs.vsproFiles"/>
+			<Command desc="FileSystem 妮┦" icon="009" helpfile="vbs.vsproFileSystem"/>
+			<Command desc="FreeSpace 妮┦" icon="009" helpfile="vbs.vsproFreeSpace"/>
+			<Command desc="HelpContext 妮┦" icon="009" helpfile="vbs.vsproHelpContext"/>
+			<Command desc="HelpFile 妮┦" icon="009" helpfile="vbs.vsproHelpFile"/>
+			<Command desc="IsReady 妮┦" icon="009" helpfile="vbs.vsproIsReady"/>
+			<Command desc="IsRootFolder 妮┦" icon="009" helpfile="vbs.vsproIsRootFolder"/>
+			<Command desc="Item 妮┦" icon="009" helpfile="vbs.vsproItem"/>
+			<Command desc="Line 妮┦" icon="009" helpfile="vbs.vsproLine"/>
+			<Command desc="Name 妮┦" icon="009" helpfile="vbs.vsproName"/>
+			<Command desc="Number 妮┦" icon="009" helpfile="vbs.vsproNumber"/>
+			<Command desc="ParentFolder 妮┦" icon="009" helpfile="vbs.vsproParentFolder"/>
+			<Command desc="Path 妮┦" icon="009" helpfile="vbs.vsproPath"/>
+			<Command desc="RootFolder 妮┦" icon="009" helpfile="vbs.vsproRootFolder"/>
+			<Command desc="SerialNumber 妮┦" icon="009" helpfile="vbs.vsproSerialNumber"/>
+			<Command desc="ShareName 妮┦" icon="009" helpfile="vbs.vsproShareName"/>
+			<Command desc="ShortName 妮┦" icon="009" helpfile="vbs.vsproShortName"/>
+			<Command desc="ShortPath 妮┦" icon="009" helpfile="vbs.vsproShortPath"/>
+			<Command desc="Size 妮┦" icon="009" helpfile="vbs.vsproSize"/>
+			<Command desc="Source 妮┦" icon="009" helpfile="vbs.vsproSource"/>
+			<Command desc="SubFolders 妮┦" icon="009" helpfile="vbs.vsproSubFolders"/>
+			<Command desc="TotalSize 妮┦" icon="009" helpfile="vbs.vsproTotalSize"/>
+			<Command desc="Type 妮┦" icon="009" helpfile="vbs.vsproType"/>
+			<Command desc="VolumeName 妮┦" icon="009" helpfile="vbs.vsproVolumeName"/>
+		</Command>
+		<Command desc="粂" icon="020">
+			<Command desc="Call 粂" icon="020" insertinfo="Call 秸ノ筁祘" helpfile="vbs.vsstmCall"/>
+			<Command desc="Const 粂" icon="020" insertinfo="Const 盽计=ゅ┪盽计" helpfile="vbs.vsstmConst"/>
+			<Command desc="Dim 粂" icon="020" insertinfo="Dim 跑秖" helpfile="vbs.vsstmDim"/>
+			<Command desc="Erase 粂" icon="020" insertinfo="Erase 计舱跑秖" helpfile="vbs.vsstmErase"/>
+			<Command desc="Function 粂" icon="020" helpfile="vbs.vsstmFunction"/>
+			<Command desc="Randomize 粂" icon="020" insertinfo="Randomize 计" helpfile="vbs.vsstmRandomize"/>
+			<Command desc="ReDim 粂" icon="020" insertinfo="ReDim 跑秖" helpfile="vbs.vsstmReDim"/>
+			<Command desc="Set 粂" icon="020" insertinfo="Set 跑秖=癸钩" helpfile="vbs.vsstmSet"/>
+		</Command>
+	</Command>
+	<Command desc="础ン㏑" icon="000">
+<![CDATA[龄弘艶础ン琌龄弘艶矗ㄑ贺秨钡璶眤祔来翴絪糶祘醚碞硄筁糶龄弘艶础ン龟瞷ゑ耕疭蔼龄弘艶﹛よ穦ぃ耞耎础ン舧眤р糶础ン矗ユ倒и㎝產だㄉ眤醇紌]]>
+	</Command>
+	<Command desc="и㏑畐" icon="011">
+<![CDATA[и㏑畐琌龄弘艶矗ㄑ贺秨钡璶眤祔来翴龄竲セ絪糶醚碞硄筁糶и㏑畐龟瞷ゑ耕疭蔼]]>
+	</Command>
+</Command>
